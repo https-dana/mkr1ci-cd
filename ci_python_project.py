@@ -19,7 +19,7 @@ def count_words(text):
     return sum(1 for w in words if w.strip())
 
 if __name__ == "__main__":
-    file_path = "sample.txt"  
+    file_path = "C:\Users\User\Desktop\ІПЗ\2 курс\mkr1\mkr1ci-cd\sample.txt"  
     text = read_file(file_path)
     words = count_words(text)
     sentences = count_sentences(text)
